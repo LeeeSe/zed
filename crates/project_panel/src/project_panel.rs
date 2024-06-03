@@ -99,6 +99,7 @@ impl DraggedSelection {
         }
     }
 }
+
 #[derive(Clone, Debug)]
 struct EditState {
     worktree_id: WorktreeId,
