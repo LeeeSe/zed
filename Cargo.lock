@@ -13318,7 +13318,7 @@ dependencies = [
 
 [[package]]
 name = "zed"
-version = "0.141.0"
+version = "0.142.0"
 dependencies = [
  "activity_indicator",
  "anyhow",
@@ -13581,6 +13581,14 @@ dependencies = [
 name = "zed_ruby"
 version = "0.0.6"
 dependencies = [
+ "zed_extension_api 0.0.6",
+]
+
+[[package]]
+name = "zed_snippets"
+version = "0.0.3"
+dependencies = [
+ "serde_json",
  "zed_extension_api 0.0.6",
 ]
 
